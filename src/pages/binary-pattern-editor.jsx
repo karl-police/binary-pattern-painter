@@ -1,12 +1,16 @@
 import React from "react";
 
-import "../js/binaryPatternEditor_main"
+import PixiJS_PatternEditorComp from "../Components/Editor/PixiJS_PatternEditorComp";
+
+
 
 function BinaryPatternEditorPage() {
     return (<>
         <div>
             test
         </div>
+
+        <PixiJS_PatternEditorComp></PixiJS_PatternEditorComp>
    </>)
 }
 

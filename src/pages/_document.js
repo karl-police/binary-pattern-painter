@@ -1,3 +1,5 @@
+// Changes made here affect all the page's main HTML stuff.
+
 import React from "react"
 
 // https://nextjs.org/docs/pages/building-your-application/routing/custom-document

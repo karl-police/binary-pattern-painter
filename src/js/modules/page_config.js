@@ -1,3 +1,4 @@
+// Toggle for local and published version on GitHub
 var b_isDevelopment = (process.env.NODE_ENV == "development")
 
 

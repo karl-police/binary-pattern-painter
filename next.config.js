@@ -6,7 +6,7 @@ const nextConfig = {
     // enables static exports
     output: "export",
     
-    reactStrictMode: true,
+    reactStrictMode: false, // if on could run useEffect twice
 
     /*i18n: {
         locales: ["en"],

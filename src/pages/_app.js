@@ -1,4 +1,5 @@
 // This has a bit of a different setup, compared to actual React
+// Changes made here affect all the pages, if they use the App Root.
 
 import React from "react";
 

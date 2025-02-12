@@ -5,15 +5,17 @@
   "dependencies": {
     "@testing-library/jest-dom": "latest",
     "@testing-library/react": "latest",
+    "next": "latest",
+    "pixi.js": "^8.8.0",
     "react": "latest",
     "react-dom": "latest",
     "react-helmet": "latest",
     "react-scripts": "latest",
-    "next": "latest",
     "web-vitals": "latest"
   },
   "scripts": {
-    "deploy": "gh-pages -d build -t true",
+    "deploy": "gh-pages -d build",
+    "deploy-old": "gh-pages -d build -t true",
     "deploy-dist": "gh-pages -d dist",
     "deploy-public": "gh-pages -d public",
     "start": "react-scripts start",
