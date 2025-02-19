@@ -11,6 +11,7 @@ function PixiJS_PatternEditorComp() {
     }, [])
 
     return (<>
+        {/* Test */}
         <input onChange={(e) => {setPaintableColor(e.target.value)}}></input>
 
         {/* This is where it will attach to */}
